@@ -41,7 +41,7 @@ Dive in to explore the predictions and gain a deeper understanding of the factor
 
 # Display the introduction text
 st.markdown(introduction)
-st.image(r'E:\python\Practical Machine Learning\Project_1\Models Comparision.png',caption='Comparison of Different Models Based on Train and Test R² Score and RMSE')
+st.image('Models_Comparision.png',caption='Comparison of Different Models Based on Train and Test R² Score and RMSE')
 selected_model_name = st.selectbox("Choose Your Model According to Accuracy Scores:", model_names)
 
 # Features 
