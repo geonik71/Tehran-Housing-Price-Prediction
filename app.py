@@ -65,7 +65,7 @@ st.image(r'E:\python\Practical Machine Learning\Project_1\Models Comparision.png
 selected_model_name = st.selectbox("Choose Your Model According to Accuracy Scores:", model_names)
 
 # Features 
-df = pd.read_csv(r'E:\python\Practical Machine Learning\Project_1\df_no_outlier.csv')
+df = pd.read_csv('df_no_outlier.csv')
 address = list(df['Address'].astype(str).unique())  # Convert all values to strings
 address.sort()  # Sort the address list
 
