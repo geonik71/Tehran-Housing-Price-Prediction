@@ -3,7 +3,6 @@ import pandas as pd
 import numpy as np
 import joblib
 from streamlit_extras.let_it_rain import rain
-import shap
 
 # Custom CSS to change background color and add a red line below the title
 st.markdown(
