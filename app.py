@@ -74,7 +74,7 @@ prediction = selected_model.predict(row_array)
 
 if st.button('Predict'):
     rounded_prediction = round(prediction[0], -5)
-    st.error(f"The estimated house price is: {rounded_prediction:,} Toman")
+    st.success(f"The estimated house price is: {rounded_prediction:,} Toman")
     rain(
         emoji="🏡",
         font_size=54,
