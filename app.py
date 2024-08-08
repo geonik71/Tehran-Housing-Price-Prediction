@@ -4,25 +4,6 @@ import numpy as np
 import joblib
 from streamlit_extras.let_it_rain import rain
 
-# Custom CSS to change background color and add a red line below the title
-st.markdown(
-    """
-    <style>
-    .main {
-        background-color: #fdedec;
-    }
-    .title-line {
-        border-top: 4px solid red;
-        margin-top: -15px;
-    }
-    .stAlert {
-        color: #eb0a0a !important;  /* Blue color for success messages */
-        background-color: #84fffa !important;  /* Light blue background for better visibility */
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 # Load pre-trained models
 model_names = ["Ridge Regression", "Lasso Regression", "ElasticNet Regression", "DecisionTreeRegressor", "RandomForestRegressor", "KNeighborsRegressor", "XGBoostRegressor"]
